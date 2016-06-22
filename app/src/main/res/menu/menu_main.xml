@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:support="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_btn_refresh"
+        android:title="@string/refresh"
+        android:icon="@drawable/ic_refresh"
+        support:showAsAction="never|collapseActionView"
+        />
+
+    <item
+        android:id="@+id/menu_btn_sort"
+        android:title="@string/sort"
+        android:icon="@drawable/ic_sort"
+        support:showAsAction="never|collapseActionView"
+        />
+
+    <item
+        android:id="@+id/menu_btn_settings"
+        android:title="@string/settings"
+        support:showAsAction="never|collapseActionView"
+        />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/logout"
+        support:showAsAction="never"
+        />
+
+</menu>

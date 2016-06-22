@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/ic_avatar_size_small"
+        android:layout_height="@dimen/ic_avatar_size_small"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/keyline_1"
+        android:src="@drawable/ic_issue_info"
+        android:contentDescription="@string/avatar">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/keyline_2"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <TextView
+                android:id="@+id/txt_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loading"
+                android:textColor="@color/mineral"
+                android:textSize="16sp"
+                />
+
+        </GridLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginEnd="@dimen/keyline_1"
+            >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription="@string/pushes"
+                        android:src="@drawable/ic_bug" />
+
+                    <TextView
+                        android:id="@+id/txt_severity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:paddingStart="3dp"
+                        android:paddingEnd="3dp"
+                        android:text="@string/loading"
+                        android:textColor="@color/mineral"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="3dp"
+                        android:paddingEnd="3dp"
+                        android:text="@string/debt"
+                        android:textColor="@color/mineral"
+                        android:textSize="12sp"
+                        android:textStyle="italic"
+                        android:id="@+id/textView" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="3dp"
+                    android:paddingEnd="3dp"
+                    android:text="@string/loading"
+                    android:textColor="@color/mineral"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_thickness"
+        android:layout_marginStart="@dimen/keyline_2"
+        android:background="@color/whiskey_dark"
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        />
+
+</FrameLayout>

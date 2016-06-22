@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mineral">#3d534b</color>
+    <color name="mineral_dark">#2a3a34</color>
+    <color name="mineral_light">#778681</color>
+
+    <color name="highland">#77986f</color>
+    <color name="highland_dark">#536a4d</color>
+    <color name="highland_light">#9fb69a</color>
+
+    <color name="spring">#b1c3b2</color>
+    <color name="spring_dark">#7b887c</color>
+    <color name="spring_light">#c8d5c9</color>
+
+    <color name="almond">#f1d5c5</color>
+    <color name="almond_dark">#a89589</color>
+    <color name="almond_light">#f6ede2</color>
+    <color name="almond_light_odd_list_item">#f2e4d4</color>
+
+    <color name="whiskey">#d4a772</color>
+    <color name="whiskey_dark">#94744f</color>
+    <color name="whiskey_light">#e0c19c</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray_dark">#555555</color>
+    <color name="gray_light">#AAAAAA</color>
+    <color name="black">#000000</color>
+</resources>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">DevGames</string>
+    <string name="app_version_code">App version: %d</string>
+    <string name="app_version_name">App version: %s</string>
+    <string name="app_url">%s</string>
+    <string name="google_app_id">756576592211</string>
+    <string name="play_services_continue_without_installing">Continue without Play Services</string>
+    <string name="play_services_install">Install Play Services</string>
+    <string name="play_services_user_recoverable">It looks like Google Play Services is not installed on this device. TeamUp uses Google Play Services for real time chat, Google Maps and translating location coordinates to addresses. \n\nGoogle Play Services is not required for TeamUp, but without it:\n\n- chat messages will not be real time. TeamUp will check the server every couple of minutes if new messages have arrived\n- Google Maps will not be shown\n- Some addresses and location related data will not be shown in the app.\n\nWould you like to try to install Google Play Services?</string>
+
+    <string name="play_services_non_user_recoverable">It looks like Google Play Services is not supported on this device. TeamUp uses Google Play Services for real time chat, Google Maps and translating location coordinates to addresses. \n\nGoogle Play Services is not required for TeamUp, but without it:\n\n- chat messages will not be real time. TeamUp will check the server every couple of minutes if new messages have arrived\n- Google Maps will not be shown\n- Some addresses and location related data will not be shown in the app.</string>
+    <string name="blocking_error_known_with_status_code_known">Error: %1$s \nStatus code: %2$s</string>
+    <string name="blocking_error_known_with_status_code_unknown">Error: %1$s \nStatus code: unknown (0).</string>
+    <string name="blocking_error_unknown_with_status_code_known">Error: unknown. \nStatus code: %1$s</string>
+    <string name="blocking_error_unknown_with_status_code_unknown">Error: unknown. \nStatus code: unknown (0).</string>
+
+    <string name="date_HH_mm">HH mm</string>
+    <string name="date_dd_MM_yyyy">dd MM yyyy</string>
+    <string name="date_dd_MMM_HH_mm">dd MMM HH:mm</string>
+    <string name="date_dd_MMM_yy_HH_mm">dd MMM yy - HH:mm</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="enter_password">Please enter a valid password.</string>
+    <string name="enter_username">Please enter a valid username.</string>
+
+    <string name="settings">Settings</string>
+    <string name="loading">loading…</string>
+
+    <string name="sort_order">Sort order</string>
+    <string name="filter">Filter</string>
+
+    <string name="sort_name">Name</string>
+    <string name="sort_score">Points</string>
+    <string name="sort_timestamp">Time</string>
+
+    <string name="list_no_items">No items</string>
+
+    <string name="no_name_available">No name available</string>
+    <string name="no_projects_available">No projects available</string>
+    <string name="no_pushes_available">No pushes available</string>
+    <string name="no_commits_available">No commits available</string>
+    <string name="no_issues_available">No issues available</string>
+    <string name="no_duplications_available">No duplications available</string>
+
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="login">Login</string>
+    <string name="remember">Remember</string>
+
+    <string name="login_200">Successfully logged in</string>
+    <string name="login_403">Username and password didn\'t match, please try again.</string>
+    <string name="login_500">Could not log in, please try again at a later time.</string>
+
+    <string name="logging_in">Logging in&#8230;</string>
+    <string name="logging_out">Logging out&#8230;</string>
+    <string name="logout">Logout</string>
+    <string name="unsuccessful_login">Could not log in, please try again.</string>
+    <string name="unsuccessful_logout">Could not log out, please try again.</string>
+
+    <string name="avatar">avatar</string>
+
+    <string name="profile">profile</string>
+    <string name="projects">projects</string>
+    <string name="project">project</string>
+    <string name="project_details">project details</string>
+    <string name="issues">issues</string>
+    <string name="issue">issue</string>
+    <string name="issue_details">issue details</string>
+    <string name="pushes">pushes</string>
+    <string name="push">push</string>
+    <string name="push_details">push details</string>
+    <string name="commits">commits</string>
+    <string name="commit">commit</string>
+    <string name="duplications">duplications</string>
+    <string name="duplication">duplication</string>
+    <string name="developers">developers</string>
+    <string name="developer">developer</string>
+    <string name="score">points</string>
+
+    <string name="new_message">You received a new notification</string>
+    <string name="new_device_registered">Your account has been loggedin on another device!</string>
+    <string name="new_score">Your last push had a score of: %s!</string>
+    <string name="new_score_default">You have a new score for your push!</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="search">search</string>
+    <string name="sort">Sort</string>
+    <string name="debt">Debt</string>
+</resources>

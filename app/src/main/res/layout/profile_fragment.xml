@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/almond_light">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/ic_avatar_size_medium"
+                android:layout_height="@dimen/ic_avatar_size_medium"
+                android:layout_margin="@dimen/keyline_1"
+                android:contentDescription="@string/avatar"
+                android:id="@+id/avatar_view"
+                android:src="@drawable/no_profile_avatar" />
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="@dimen/keyline_1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/loading"
+                    android:textColor="@color/mineral"
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/score_icon"
+                    android:src="@drawable/ic_trophy"
+                    android:contentDescription="@string/score"
+                    android:layout_below="@+id/txt_name"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:text="@string/loading"
+                    android:textColor="@color/mineral"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    android:layout_marginStart="16dp"
+                    android:enabled="false"
+                    android:layout_below="@+id/txt_name"
+                    android:layout_toEndOf="@+id/score_icon"
+                    android:gravity="center_vertical|end"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:id="@+id/scores"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:text="@string/score"
+                    android:textColor="@color/mineral"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    android:enabled="false"
+                    android:gravity="center_vertical|end"
+                    android:layout_alignBaseline="@+id/txt_score"
+                    android:layout_alignBottom="@+id/txt_score"
+                    android:layout_toEndOf="@+id/txt_score"
+                    android:layout_marginStart="8dp" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/project_icon"
+                    android:src="@drawable/ic_git_commit"
+                    android:layout_below="@+id/score_icon"
+                    android:layout_alignParentStart="false"
+                    android:contentDescription="@string/project" />
+
+                <TextView
+                    android:id="@+id/txt_projects"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:text="@string/loading"
+                    android:textColor="@color/mineral"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    android:gravity="center_vertical|end"
+                    android:layout_below="@+id/txt_score"
+                    android:layout_alignStart="@+id/txt_score" />
+
+                <TextView
+                    android:id="@+id/projects"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:text="@string/projects"
+                    android:textColor="@color/mineral"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    android:gravity="center_vertical|end"
+                    android:layout_below="@+id/scores"
+                    android:layout_alignStart="@+id/scores" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:alpha="0.5"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/almond_dark"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
