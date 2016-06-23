@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756576592211",
+    "project_id": "devgamesjorik"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756576592211:android:d7c8783a112cd789",
+        "android_client_info": {
+          "package_name": "nl.icode4living.devgames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756576592211-heimrbpj9nvtc4n9d08ffhp7lb477b8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nl.icode4living.devgames",
+            "certificate_hash": "6D1084E60078D7229DE90DC24BFA2E01174D7C39"
+          }
+        },
+        {
+          "client_id": "756576592211-6aini4te02clcka23eahjefq14hj3aiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0pCoEkzH7oy9x_GGgXyxNv_Qrl6MvgL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

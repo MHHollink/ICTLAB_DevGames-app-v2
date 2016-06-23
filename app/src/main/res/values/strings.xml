@@ -4,10 +4,10 @@
     <string name="app_version_name">App version: %s</string>
     <string name="app_url">%s</string>
     <string name="google_app_id">756576592211</string>
+    <string name="google_api_key">AIzaSyAW3nAfcMKPD_WWI42Tzb8p0dG-Jh8Ybx8</string>
     <string name="play_services_continue_without_installing">Continue without Play Services</string>
     <string name="play_services_install">Install Play Services</string>
     <string name="play_services_user_recoverable">It looks like Google Play Services is not installed on this device. TeamUp uses Google Play Services for real time chat, Google Maps and translating location coordinates to addresses. \n\nGoogle Play Services is not required for TeamUp, but without it:\n\n- chat messages will not be real time. TeamUp will check the server every couple of minutes if new messages have arrived\n- Google Maps will not be shown\n- Some addresses and location related data will not be shown in the app.\n\nWould you like to try to install Google Play Services?</string>
-
     <string name="play_services_non_user_recoverable">It looks like Google Play Services is not supported on this device. TeamUp uses Google Play Services for real time chat, Google Maps and translating location coordinates to addresses. \n\nGoogle Play Services is not required for TeamUp, but without it:\n\n- chat messages will not be real time. TeamUp will check the server every couple of minutes if new messages have arrived\n- Google Maps will not be shown\n- Some addresses and location related data will not be shown in the app.</string>
     <string name="blocking_error_known_with_status_code_known">Error: %1$s \nStatus code: %2$s</string>
     <string name="blocking_error_known_with_status_code_unknown">Error: %1$s \nStatus code: unknown (0).</string>
