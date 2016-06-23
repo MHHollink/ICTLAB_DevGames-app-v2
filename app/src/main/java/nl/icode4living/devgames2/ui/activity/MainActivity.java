@@ -282,8 +282,8 @@ public class MainActivity extends DevGamesActivity {
                 getDevGamesApplication().getGoogleApiClient().connect();
             } else {
                 new AlertDialog.Builder(this)
-                        .setMessage("We couldn't log you in for google play services. \nThis means achievements are not available at this time. \n\nDo you wanna continue?")
-                        .setPositiveButton("Continue", new DialogInterface.OnClickListener() {
+                        .setMessage("We couldn't log you in for google play services. Play services are necessary to gain achievements..  \n\nDo you wanna try again?")
+                        .setPositiveButton("Try again", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 resolvingConnectionFailure = false;
@@ -291,7 +291,7 @@ public class MainActivity extends DevGamesActivity {
                                 dialog.dismiss();
                             }
                         })
-                        .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                        .setNeutralButton("Cancel", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 dialog.dismiss();
