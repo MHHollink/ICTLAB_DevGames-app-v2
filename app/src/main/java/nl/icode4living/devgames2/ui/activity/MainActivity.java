@@ -68,7 +68,8 @@ public class MainActivity extends DevGamesActivity {
 
         ProfileFragment profileFragment = new ProfileFragment();
         Bundle profileBundle = new Bundle(1);
-        profileBundle.putLong(ProfileFragment.USER_LOCAL_ID, DevGamesApplication.get(this).getLoggedInUser().getId());
+        if(DevGamesApplication.get(this).getLoggedInUser() != null)
+            profileBundle.putLong(ProfileFragment.USER_LOCAL_ID, DevGamesApplication.get(this).getLoggedInUser().getId());
         profileFragment.setArguments(profileBundle);
         adapter.addFragment(profileFragment,"Profile");
 

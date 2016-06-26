@@ -5,5 +5,6 @@ public enum GcmMessageType {
     REGISTERED_ELSEWHERE,   // Show R.Strings.new_device_registered AND remove all saved data
     NEW_PUSH_RECEIVED,      // Show R.Strings.new_score             AND request update for this push.
     ACCOUNT_UPDATED,        // No notification                      AND Call DevGamesClient.getCurrentlyLoggedInUser()
-    BROKEN_BUILD            // Show R.Strings.___
+    BROKEN_BUILD,            // Show R.Strings.___
+    ACHIEVEMENT
 }
